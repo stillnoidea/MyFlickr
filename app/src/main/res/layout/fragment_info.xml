@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".fragments.FragmentInfo" android:orientation="vertical" android:id="@+id/image_view_linear_layout">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/fragment_info_data" android:textSize="@dimen/text_size_for_image_details"
+            android:layout_marginBottom="@dimen/default_bottom_margin" android:text="@string/fragment_info_data"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/fragment_info_name" android:textSize="@dimen/text_size_for_image_details"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/fragment_info_tags" android:textSize="@dimen/text_size_for_image_details"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/fragment_info_date" android:textSize="@dimen/text_size_for_image_details"/>
+</LinearLayout>

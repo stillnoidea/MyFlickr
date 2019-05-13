@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".fragments.FragmentImage" android:id="@+id/image_view_frame_layout">
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" tools:srcCompat="@tools:sample/avatars"
+            android:id="@+id/fragment_image_frame_with_image"
+            android:contentDescription="@string/content_description_for_picture"/>
+</FrameLayout>
